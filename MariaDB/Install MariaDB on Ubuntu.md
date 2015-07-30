@@ -1,33 +1,34 @@
-#### Install MariaDB on Ubuntu<br/>
-#####Summary<br/>
+### Install MariaDB on Ubuntu<br/>
+<hr/>
+#### Summary<br/>
 Install MariaDB on Ubuntu Server.<br/>
 
-#####Version Info.<br/>
+#### Version Info.<br/>
 ● Ubuntu: 14.04 LTS<br/> 
 ● MariaDB: 10.0<br/>
 
-#####Installing Step<br/>
+#### Installing Step<br/>
 Please following the steps list below：<br/>
-1.Adding apt repository<br/>
+1. Adding apt repository<br/>
 Typing below command in terminal to add the MariaDB repository information in apt.<br/>
 ```
 sudo apt-get install software-properties-common
 sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xcbcb082a1bb943db
 sudo add-apt-repository 'deb http://download.nus.edu.sg/mirror/mariadb/repo/10.0/ubuntu trusty main'
 ```
-2.Updating apt 
+2. Updating apt 
 ```
 sudo apt-get update
 ```
-3.Installing MariaDB database
+3. Installing MariaDB database
 ```
 sudo apt-get install mariadb-server
 ```
-4.Login into MariaDB database
+4. Login into MariaDB database
 ```
 mysql -u root -p
 ```
-5.Finish
+5. Finish<br/>
 If you install successfully, then the output will be like this.
 ```
 Welcome to the MariaDB monitor. Commands end with ; or \g.
