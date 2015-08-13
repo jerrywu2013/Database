@@ -61,12 +61,11 @@ Stop run service mysql on every node of cluster<br/>
 ```
 sudo service mysql stop
 ```
-6.Open 3 ports in firewall
-```
-● 3306: MariaDB
-● 4444: RSync
-● 4567: Galera Cluster
-```
+6.Open 3 ports in firewall<br/>
+● 3306: MariaDB<br/>
+● 4444: RSync<br/>
+● 4567: Galera Cluster<br/>
+<br/>
 7.Start cluster node<br/>
 Start first cluster node.
 ```
