@@ -48,10 +48,10 @@ wsrep_sst_auth=Cluster_User:Cluster_Password
 wsrep_sst_method=rsync
 ```
 Memo:<br/>
-● Replace label This_Node_IP to the current node's IP address.<br/>
-● Replace label Cluster_Name to your self-defined cluster name.<br/>
-● Replace label Other_Node1_IP and Other_Node2_IP to the other two node's IP addresses of the cluster respectively.<br/>
-● Replace label Cluster_User and Cluster_Password to your database account and password, which is used for database synchronization, respectively.<br/>
+● Replace label This_Node_IP with the current node's IP address.<br/>
+● Replace label Cluster_Name with your self-defined cluster name.<br/>
+● Replace label Other_Node1_IP and Other_Node2_IP with the other two node's IP addresses of the cluster respectively.<br/>
+● Replace label Cluster_User and Cluster_Password with your database account and password, which is used for database synchronization, respectively.<br/>
 <br/>
 4.Ensure every node has same password of debian-sys-maint<br/>
 Choosed one node and opened the file /etc/mysql/debian.cnf. Copy its password to the same file of other cluster nodes. To ensure every node of cluster has same password of debian-sys-maint.<br/>
