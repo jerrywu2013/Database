@@ -1,7 +1,7 @@
 ### MariaDB Galera Cluster Expansion<br/>
 <hr/>
 #### Summary<br/>
-Adding a cluster node in MariaDB Galera Cluster is easy. There is no need to interrupt a running service. Just to do some simple settings on the MariaDB server which you want it to be added in a existing cluster.<br/>
+Adding a cluster node in MariaDB Galera Cluster is easy. There is no need to interrupt a running service. Just to do some simple settings on the MariaDB server which you want it to be added in an existing cluster.<br/>
 
 #### Version Info.<br/>
 ● Ubuntu: 14.04 LTS<br/> 
