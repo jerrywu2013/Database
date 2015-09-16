@@ -56,6 +56,10 @@ mysql> show columns from 資料表名稱;
 ```
 mysql> show status;
 ```
+● 匯入資料庫
+```
+mysql -u username -p 資料庫名稱 < 檔案名稱.sql
+```
 ● 退出mysql服務
 ```
 mysql> quit;
