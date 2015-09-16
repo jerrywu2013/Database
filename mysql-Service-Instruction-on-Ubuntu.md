@@ -36,6 +36,10 @@ mysqladmin -u root password 密碼值
 ```
 mysql> show databases;
 ```
+● 建立資料庫
+```
+create database 資料庫名稱;
+```
 ● 切換資料庫
 ```
 mysql> use 資料庫名稱;
