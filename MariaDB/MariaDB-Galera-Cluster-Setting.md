@@ -41,6 +41,7 @@ bind-address=0.0.0.0
 
 # Galera Settings
 wsrep_node_address="This_Node_IP"
+wsrep_node_name="This_Node_Name"
 wsrep_provider=/usr/lib/galera/libgalera_smm.so
 wsrep_cluster_name="Cluster_Name"
 wsrep_cluster_address="gcomm://Other_Node_IP"
@@ -49,8 +50,9 @@ wsrep_sst_method=rsync
 ```
 Memo:<br/>
 ● Replace label This_Node_IP with the current cluster node's IP address.<br/>
+● Replace label This_Node_Name with your self-defined Node name.<br/>
 ● Replace label Cluster_Name with your self-defined cluster name.<br/>
-● Replace label Other_Node_IP with IP address of any other cluster nodes.<br/>
+● Replace label Other_Node_IP with IP addresses of other cluster nodes(seperate them by a comma).<br/>
 ● Replace label Cluster_User and Cluster_Password with your database account and password, which is used for database synchronization, respectively.<br/>
 <br/>
 4.Ensure every cluster node has same password of debian-sys-maint<br/>
