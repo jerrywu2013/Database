@@ -8,7 +8,7 @@ Install Cassandra on Ubuntu Server.<br/>
 ● Cassandra: 2.2.3<br/>
 
 #### Prerequisite<br/>
-Cassandra is developed using Java. To run it, we need the Java runtime environment to be installed first!
+Cassandra is developed using Java. To run it, we need the Java runtime environment to be installed first! About how to install JRE, please reference the tutorial [Installing Java SE Runtime Environment(JRE)](https://github.com/andychen1060/Ubuntu-Server/blob/master/Installing%20Java%20SE%20Runtime%20Environment(JRE).md).
 
 #### Installing Step<br/>
 Please follow the steps list below：<br/>
