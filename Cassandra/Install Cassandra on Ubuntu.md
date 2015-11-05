@@ -98,5 +98,5 @@ cqlsh> exit
 #### Conclusion<br/>
 Although we have installed a Cassandra, there still have some security problems. Next we need to do some configurations to make it more secure. Please follow the tutorial [Security Configuration](https://github.com/andychen1060/Database/blob/master/Cassandra/Security%20Configuration.md).<br/>   
 
-#### Reference:<br/>
+#### Reference<br/>
 ● DigitalOcean: https://www.digitalocean.com/community/tutorials/how-to-install-cassandra-and-run-a-single-node-cluster-on-ubuntu-14-04
